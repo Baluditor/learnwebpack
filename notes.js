@@ -9,7 +9,7 @@ module.exports = {
   // The name of the file we want to compile to
   // By default it's main JS.
   output: {
-    filename: 'balus.js',
+    fileName: 'balus.js',
     // For path we use node.js utilities like path
     // to resolve a consistent path name
     path: path.resolve(__dirname, 'dist'),
@@ -34,6 +34,4 @@ module.exports = {
       },
     ],
   },
-  //  Set the compile option to prod
-  mode: 'production',
 };
