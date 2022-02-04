@@ -34,6 +34,10 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    static: path.join(__dirname, 'public'),
+    port: 90,
+  },
   //  Set the compile option to prod
   mode: 'production',
 };
